@@ -52,7 +52,7 @@
             bindings = <
   &none   &none   &none                 &none                  &none      &none            &none                                                      &none        &none  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY   &none
   &none   &none   &none        &kp LEFT_BRACE        &kp RIGHT_BRACE      &none            &none                                                      &none  &kp PERCENT   &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_MINUS   &none
-  &none   &mo 1   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET            &none   &none   &none                   &none   &none      &none   &kp DOLLAR   &kp KP_N4     &kp KP_N5     &kp KP_N6      &kp KP_PLUS   &none
+  &none   &mo 1   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET            &none   &none   &none                   &none   &none      &none   &kp DOLLAR   &kp KP_N4     &kp KP_N5     &kp KP_N6    &lt 1 KP_PLUS   &none
   &none   &none   &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                            &none                   &none                           &none   &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_ENTER   &none
   &none   &none   &none                 &none                  &none                       &none   &none   &none                   &none   &none  &kp KP_N0                    &none         &none    &kp PERIOD     &kp KP_EQUAL   &none
             >;
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5             &none                                                          &none    &kp F6        &kp F7        &kp F8      &kp F9  &kp F10  &kp F11
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                          &none    &trans        &trans        &trans      &trans   &trans  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &kp LC(LG(Q))   &none  &kp LEFT      &kp DOWN        &kp UP   &kp RIGHT   &trans   &trans
- &trans   &mo 2  &trans  &trans  &trans  &trans                            &trans                  &trans                           &trans        &trans        &trans      &trans    &mo 2   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans         &trans  &trans            &kp K_VOL_DN  &kp K_VOL_UP  &kp K_MUTE   &trans   &trans
+  &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &none                                                          &none    &kp F6        &kp F7        &kp F8      &kp F9  &kp F10  &kp F11
+  &none   &none   &none   &none   &none   &none            &none                                                          &none     &none         &none         &none       &none    &none  &kp F12
+  &none   &none   &none   &none   &none   &none            &none   &none   &none                   &none  &kp LC(LG(Q))   &none  &kp LEFT      &kp DOWN        &kp UP   &kp RIGHT    &none    &none
+  &none   &mo 2   &none   &none   &none   &none                            &none                   &none                            &none         &none         &none       &none    &mo 2    &none
+  &none   &none   &none   &none   &none                    &none   &none   &none                   &none          &none   &none            &kp K_VOL_DN  &kp K_VOL_UP  &kp K_MUTE    &none    &none
             >;
         };
 
